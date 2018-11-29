@@ -15,3 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get("/yrf",function(){
+	return "杨若飞";
+});
